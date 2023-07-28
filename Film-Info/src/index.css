@@ -13,15 +13,18 @@
   display: flex;
 }
 .years {
- background-color: brown;
- display: flex;
- flex-direction: column;
- margin: 5rem 1rem;
- padding: 4rem;
- font-size: 1.5rem;
- height: 250px;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 1rem;
+  padding: 4rem;
+  font-size: 1.5rem;
+  height: 250px;
 }
 .year {
-    margin: 0.2rem;
-    cursor: pointer;
+  margin: 0.2rem;
+  cursor: pointer;
+}
+.filmInfo {
+  background-color: blueviolet;
 }
