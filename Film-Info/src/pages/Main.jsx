@@ -3,7 +3,7 @@ import FilmYear from "../components/FilmYear";
 
 const Main = () => {
   return (
-    <div>
+    <div className="main">
       <FilmYear />
       <FilmInfo />
     </div>
