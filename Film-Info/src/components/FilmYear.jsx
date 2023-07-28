@@ -1,8 +1,10 @@
-const FilmYear = ({ data }) => {
+const FilmYear = ({ data, setDate }) => {
   return (
     <div className="years">
       {data.map((date) => (
-        <a className="year">{date.date}</a>
+        <a onClick={() => setDate(date.date)} className="year">
+          {date.date}
+        </a>
       ))}
     </div>
   );
