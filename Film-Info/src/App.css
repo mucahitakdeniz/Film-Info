@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 .main {
-  
   margin: auto;
   margin-top: 5rem;
   width: 800px;
@@ -17,7 +16,7 @@
   }
 }
 .years {
-  color: rgb(95, 15, 15);
+  color: black;
   display: flex;
   flex-direction: column;
   padding: 4rem;
@@ -32,8 +31,8 @@
 .filmInfo {
   font-size: 1rem;
   margin: 4rem 2rem;
-  & h1{
-color: blue;
+  & h1 {
+    color: blue;
   }
   & h3 {
     color: rgb(156, 6, 6);
@@ -41,7 +40,7 @@ color: blue;
   & h2 {
     color: red;
   }
-  & p{
+  & p {
     font-size: 18px;
   }
 }
