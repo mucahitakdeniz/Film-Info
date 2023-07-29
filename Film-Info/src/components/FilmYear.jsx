@@ -1,6 +1,8 @@
 import { useState } from "react";
 
+
 const FilmYear = ({ data, setDate }) => {
+
   const [activeIndex, setActiveIndex] = useState(null);
   const hanhleClick = (index) => {
     setDate(data[index].date);
